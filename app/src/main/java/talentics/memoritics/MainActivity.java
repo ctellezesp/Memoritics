@@ -40,13 +40,13 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         switch (V.getId())
         {
             case R.id.btn_1:
-                txt_entrada.setText("Oprimiste la opcion 1");
+                txt_entrada.setText("Oprimiste la opcion A");
             break;
             case R.id.btn_2:
-                txt_entrada.setText("Oprimiste la opcion 2");
+                txt_entrada.setText("Oprimiste la opcion B");
             break;
             case R.id.btn_3:
-                txt_entrada.setText("Oprimiste la opcion 3");
+                txt_entrada.setText("Oprimiste la opcion C");
             break;
         }
     }
