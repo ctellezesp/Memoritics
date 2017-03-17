@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         {
             case R.id.btn_1:
                 txt_entrada.setText("Oprimiste la opcion A");
+                txt_entrada.setText("Oprimiste la opcion 1");
             break;
             case R.id.btn_2:
                 txt_entrada.setText("Oprimiste la opcion B");
